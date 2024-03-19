@@ -5,3 +5,6 @@ function SumArray(arr){
     }
     return sum;
 }
+const array = [1, 2, 3, 4, 5];
+const total = SumArray(array);
+console.log("Sum of the array:", total)
